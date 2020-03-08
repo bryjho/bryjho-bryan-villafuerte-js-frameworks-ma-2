@@ -1,10 +1,12 @@
 <template>
   <div class="card">
-    <img class="card-img-top" src="recipeImg" alt="Card image cap" />
+    <img class="card-img-top" src="recipeImg" alt="Recipe Image" />
     <div class="card-body">
       <h5 class="card-title">{{ recipeTitle }}</h5>
       <p class="card-text">{{ recipeIngredients }}</p>
-      <a href="recipeLink" class="btn btn-primary">View Recipe</a>
+      <div class="text-center">
+        <a href="recipeLink" class="btn btn-primary">View Recipe</a>
+      </div>
     </div>
   </div>
 </template>
